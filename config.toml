@@ -1,7 +1,0 @@
-baseURL = "https://titchou-studio.github.io/"
-languageCode = "fr-fr"
-title = "Titchou Studio"
-theme = "ananke"
-
-[params]
-  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
