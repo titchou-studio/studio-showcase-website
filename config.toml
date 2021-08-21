@@ -80,7 +80,7 @@ expire_days = 2
 # banner
 [params.banner]
 heading = "TiTchou Studio - Jeu Vidéo Indépendant"
-image = "images/titchou-banner.png"
+image = "images/titchou-banner.jpg"
 
 # blog
 [params.blog]
