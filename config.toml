@@ -109,8 +109,8 @@ image = "images/2020-square-1.png"
 [params.footer]
 title = "TiTchou Studio"
 content = "Studio jeu vidéo 2D indépendant."
-address = "TiTchou Studio, Tours, 2021 / 2022 © Tous droits réservés"
-copyright = "Copyright &copy; 2021 TiTchou Studio"
+address = "TiTchou Studio, Tours"
+copyright = " TiTchou Studio © Tous droits réservés"
 
 ############################# social site ########################
 [params.social]
