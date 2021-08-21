@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://titchou-studio.github.io/"
 languageCode = "fr-fr"
 paginate = 6
 theme = "portio-hugo"
