@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "fr-fr"
 paginate = 6
-theme = "portio"
+theme = "portio-hugo"
 title = "TiTchou Studio"
 # Main Menu
 [[menu.main]]
