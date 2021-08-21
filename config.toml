@@ -1,9 +1,9 @@
 ######################## default configuration ####################
 baseURL = "https://titchou-studio.github.io/"
-title = "Twenty Twenty Hugo"
+title = "TiTchou Studio"
 theme = "twenty-twenty-hugo"
-languageName = "En"
-languageCode = "en-us"
+languageName = "Fr"
+languageCode = "fr-fr"
 # post pagination
 paginate = "6"
 # post excerpt
@@ -34,12 +34,12 @@ author = "author"
 
 # main menu
 [[menu.main]]
-name = "Home"
+name = "Accueil"
 URL = "/"
 weight = 1
 
 [[menu.main]]
-name = "About"
+name = "A Propos"
 URL = "about"
 weight = 2
 
@@ -54,7 +54,7 @@ URL = "contact"
 weight = 4
 
 [[menu.main]]
-name = "Sample Page"
+name = "Télécharger"
 URL = "sample-page"
 weight = 5
 
@@ -68,8 +68,9 @@ weight = 1
 #################### default parameters ################################
 [params]
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+keywords = "studio,jeu,vidéo,jeux-vidéo,indépendant,2D,plateform,unity,unreal"
+description = "Studio français indépendant de jeux vidéo"
+author = "TiTchou Studio"
 
 # cookies
 [params.cookies]
@@ -78,8 +79,8 @@ expire_days = 2
 
 # banner
 [params.banner]
-heading = "The New UMoMA Opens its Doors"
-image = "images/2020-landscape-1-2.png"
+heading = "TiTchou Studio - Jeu Vidéo Indépendant"
+image = "images/titchou-banner.png"
 
 # blog
 [params.blog]
@@ -106,17 +107,15 @@ image = "images/2020-square-1.png"
 
 # footer
 [params.footer]
-title = "About This Site"
-content = "This may be a good place to introduce yourself and your site or include some credits."
-address = "123 Main Street <br> New York, NY 10001"
+title = "TiTchou Studio"
+content = "Studio jeu vidéo 2D indépendant."
+address = "TiTchou Studio, Tours, 2021 / 2022 © Tous droits réservés"
 hours = "Monday–Friday: 9:00AM–5:00PM <br> Saturday & Sunday: 11:00AM–3:00PM"
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com) ported from [WordPress Twenty Twenty](https://github.com/WordPress/twentytwenty)"
+copyright = "Copyright &copy; 2021 TiTchou Studio"
 
 ############################# social site ########################
 [params.social]
-yelp = "#"
-facebook = "#"
-twitter = "#"
-instagram = "#"
-email = "#"
-linkedin = "#"
+facebook = "https://www.facebook.com/Titchou-Studio-143072877886278/"
+twitter = "https://twitter.com/titchou_studio"
+instagram = "https://www.instagram.com/titchou.studio/"
+email = "titchou.studio@gmail.com"
