@@ -1,120 +1,87 @@
-######################## default configuration ####################
-baseURL = "https://titchou-studio.github.io/"
-title = "TiTchou Studio"
-theme = "twenty-twenty-hugo"
-languageName = "Fr"
+baseURL = "http://example.org/"
 languageCode = "fr-fr"
-# post pagination
-paginate = "6"
-# post excerpt
-summaryLength = "10"
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
-# disable language
-disableLanguages = [] # desable language from here
-# google analytics
-googleAnalytics = "" # example : UA-123-45
-
-
-
-############################## Output ###############################
-[outputs]
-home = ["HTML", "RSS", "JSON"]
-
-# unsafe html
-[markup.goldmark.renderer]
-unsafe = true
-
-[taxonomies]
-category = "categories"
-tag = "tags"
-author = "author"
-
-############################## navigation ###############################
-
-# main menu
+paginate = 6
+theme = "portio"
+title = "TiTchou Studio"
+# Main Menu
 [[menu.main]]
-name = "Accueil"
-URL = "/"
+name = "Home"
+url = "#home"
 weight = 1
-
 [[menu.main]]
-name = "A Propos"
-URL = "about"
+name = "About"
+url = "#about"
 weight = 2
-
+[[menu.main]]
+name = "Service"
+url = "#service"
+weight = 3
+[[menu.main]]
+name = "Work"
+url = "#portfolio"
+weight = 4
+[[menu.main]]
+name = "Resume"
+url = "#resume"
+weight = 5
 [[menu.main]]
 name = "Blog"
-URL = "blog"
-weight = 3
-
+url = "#blog"
+weight = 6
 [[menu.main]]
 name = "Contact"
-URL = "contact"
+url = "#contact"
+weight = 7
+
+# Sitemap Menu
+[[menu.sitemap]]
+name = "About me"
+url = "about"
+weight = 1
+[[menu.sitemap]]
+name = "Frequently Ask Question"
+url = "#"
+weight = 2
+[[menu.sitemap]]
+name = "Privacy & Policy"
+url = "#"
+weight = 3
+[[menu.sitemap]]
+name = "Latest Article"
+url = "#"
 weight = 4
 
-[[menu.main]]
-name = "Télécharger"
-URL = "sample-page"
-weight = 5
-
-# only desktop menu
-[[menu.desktop]]
-name = "Contact"
-URL = "contact"
-weight = 1
-
-
-#################### default parameters ################################
 [params]
-# Meta data
-keywords = "studio,jeu,vidéo,jeux-vidéo,indépendant,2D,plateform,unity,unreal"
-description = "Studio français indépendant de jeux vidéo"
-author = "TiTchou Studio"
+blogPageURL = "blog"
+contactLink = "contact"
+copyright = "Tous droit réservés @ Titchou Studio 2021"
+footerLogo = "images/contact/widget-logo.png"
+formspreeURL = "YOUR FORMSPREE URL"
+googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
+logo = "images/site-navigation/logo.png"
 
-# cookies
-[params.cookies]
-enable = true
-expire_days = 2
+[params.address]
+address = "23 Khan Niketon, Grand Street, NYK."
+email = "hello@example.com"
+openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
+phone = "+(448) 833 5272 332"
 
-# banner
-[params.banner]
-heading = "TiTchou Studio - Jeu Vidéo Indépendant"
-image = "images/titchou-banner.jpg"
+[params.map]
+APIkey = "YOUR GOOGLE MAP API"
+latitude = "23.7783741"
+longitude = "90.3746808"
+pinImage = "images/pin.png"
 
-# blog
-[params.blog]
-heading = "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
-
-# call to action
-[params.call_to_action]
-enable = true
-title = "Contact us for more information."
-content = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis"
-button_label = "Contact Us"
-button_url = "contact"
-
-# gallery
-[params.gallery]
-enable = true
-
-[[params.gallery.gallery_item ]]
-image = "images/2020-square-2.png"
-
-[[params.gallery.gallery_item ]]
-image = "images/2020-square-1.png"
-
-
-# footer
-[params.footer]
-title = "TiTchou Studio"
-content = "Studio jeu vidéo 2D indépendant."
-address = "TiTchou Studio, Tours"
-copyright = " TiTchou Studio © Tous droits réservés"
-
-############################# social site ########################
-[params.social]
-facebook = "https://www.facebook.com/Titchou-Studio-143072877886278/"
-twitter = "https://twitter.com/titchou_studio"
-instagram = "https://www.instagram.com/titchou.studio/"
-email = "titchou.studio@gmail.com"
+# Social icons
+[[params.social]]
+icon = "fa-facebook-official"
+url = "https://www.facebook.com/Titchou-Studio-143072877886278/"
+weight = 1
+[[params.social]]
+icon = "fa-instagram-square"
+url = "https://www.instagram.com/titchou.studio/"
+weight = 2
+[[params.social]]
+icon = "fa-twitter-square"
+url = "https://twitter.com/titchou_studio"
+weight = 3
